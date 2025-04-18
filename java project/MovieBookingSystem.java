@@ -260,7 +260,7 @@ public class MovieBookingSystem {
                                                     m.name, m.time, ticketCount, totalCost);
                 currentUser.bookings.add(bookingInfo);
                 saveMoviesToFile();
-                saveUsersToFile(); // 🧠 Don't forget to save booking too
+                saveUsersToFile(); 
                 System.out.println("✅ Booking successful!");
                 System.out.println("🎟️ " + bookingInfo);
             } else {
